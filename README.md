@@ -19,6 +19,10 @@ In particular, it contains an implementation of:
 
 *TO-DO-LIST:*
 - Adaptive learning rates and early stopping criterion
+- Save and upload a pytorch model
+- Track epochs
+- Define cross validation strategies
+- Hyperparameter tuning and nested cross validaton strategies
 
 ## Intrusive
 Intrusive methods are the most efficient approaches to deal with aleatoric/epistemic uncertainties. However, they require careful implementation of appropriate loss/network characteristics.
@@ -51,6 +55,11 @@ Post hoc methods (also called non-intrusive techniques) provide a simple and com
 - Trust Score
 - MC Dropout Refression
 
+
+# Probabilistic Deep Learning Package:
+The code seen in the Jupyter tutorials will be wrapped in a useful package to do Bayesian Deep Learning and Probabilistic Modelling implementations.
+
+**WIP**
 
 # Related theoretical framework:
 The theory related to the implemented code can be found in the paper: 
