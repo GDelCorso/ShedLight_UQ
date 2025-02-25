@@ -7,7 +7,7 @@ The code is provided with a large number of comments and remarks about toy probl
 Generated data are saved in **Data** folder.
 
 
-# Jupiter tutorials
+# Jupyter tutorials
 ## Introduction
 The introduction includes several examples of model implementations on vanilla PyTorch of classic and state-of-the-art deep learning models.
 In particular, it contains an implementation of:
