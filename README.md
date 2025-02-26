@@ -23,6 +23,7 @@ In particular, it contains an implementation of:
 - Track epochs
 - Define cross validation strategies
 - Hyperparameter tuning and nested cross validaton strategies
+- Freeze layers and fine-tuning
 
 ## Intrusive
 Intrusive methods are the most efficient approaches to deal with aleatoric/epistemic uncertainties. However, they require careful implementation of appropriate loss/network characteristics.
