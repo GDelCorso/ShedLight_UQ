@@ -24,6 +24,9 @@ In particular, it contains an implementation of:
 - Define cross validation strategies
 - Hyperparameter tuning and nested cross validaton strategies
 - Freeze layers and fine-tuning
+- Few shot learning
+- Classical ML methods as particular case of ANNs
+- Convolutions and convolutional ANNs
 
 ## Intrusive
 Intrusive methods are the most efficient approaches to deal with aleatoric/epistemic uncertainties. However, they require careful implementation of appropriate loss/network characteristics.
