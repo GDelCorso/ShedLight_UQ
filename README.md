@@ -31,12 +31,12 @@ In particular, it contains an implementation of:
 ## Intrusive
 Intrusive methods are the most efficient approaches to deal with aleatoric/epistemic uncertainties. However, they require careful implementation of appropriate loss/network characteristics.
 - **Multi-head model regression:** Definition of a proper NLL derived loss (variance attenuation loss) and full implementation of a multi-head regression model to capture aleatoric uncertainty
-
+- **(BNN) Bayesian Neural Network:** Implementation of a fully Bayesian Neural Network for regression task using Variational Inference (KL divergence on Bayesian layers)
+  
 *TO-DO-LIST:*
 - Multi-head model classification
 - Deep Gaussian Process
 - Non-gaussian output - NLL derived lossess
-- Bayesian Neural Network with KL divergence
 - Fully-bayesian multi-head Neural Network
 - Variational Autoencoder
 
