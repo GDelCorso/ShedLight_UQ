@@ -35,6 +35,7 @@ Intrusive methods are the most efficient approaches to deal with aleatoric/epist
   
 *TO-DO-LIST:*
 - Multi-head model classification
+- Compute posterior using Monte Carlo instead of VI
 - Deep Gaussian Process
 - Non-gaussian output - NLL derived lossess
 - Fully-bayesian multi-head Neural Network
