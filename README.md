@@ -16,9 +16,9 @@ In particular, it contains an implementation of:
 - **Deterministic Models Regression:** Full implementation of a DL model for regression
 - **Deterministic Models Regression:** Full implementation of a DL model for classification
 - **Autoencoder Reconstruction:** Full implementation of a DL convolutional autoencoder model for image compression
+- **Adaptive learning rates and early stopping criterion** Full implementation of custom learning rate scheduler and a patience module to define an early stopping criterion
 
 *TO-DO-LIST:*
-- Adaptive learning rates and early stopping criterion
 - Save and upload a pytorch model
 - Track epochs
 - Define cross validation strategies
