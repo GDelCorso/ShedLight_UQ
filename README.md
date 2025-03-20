@@ -17,16 +17,13 @@ In particular, it contains an implementation of:
 - **Deterministic Models Regression:** Full implementation of a DL model for classification
 - **Autoencoder Reconstruction:** Full implementation of a DL convolutional autoencoder model for image compression
 - **Adaptive learning rates and early stopping criterion** Full implementation of custom learning rate scheduler and a patience module to define an early stopping criterion
+- **Save and upload a pytorch model** Tutorial on how to save and upload model weights/architecture, coupled with a simple intermediate state log/backup procedure.
 
 *TO-DO-LIST:*
-- Save and upload a pytorch model
-- Track epochs
-- Define cross validation strategies
-- Hyperparameter tuning and nested cross validaton strategies
 - Freeze layers and fine-tuning
-- Few shot learning
 - Classical ML methods as particular case of ANNs
 - Convolutions and convolutional ANNs
+- Few shot learning
 
 ## Intrusive
 Intrusive methods are the most efficient approaches to deal with aleatoric/epistemic uncertainties. However, they require careful implementation of appropriate loss/network characteristics.
@@ -58,7 +55,7 @@ Post hoc methods (also called non-intrusive techniques) provide a simple and com
 
 *TO-DO-LIST:*
 - Trust Score
-- MC Dropout Refression
+- MC Dropout Regression
 
 
 # Probabilistic Deep Learning Package:
